@@ -36,7 +36,7 @@ The arguments against this model is that it does take more computational power t
 ## Results and Analysis
 The model performs very well.
 
-Insert confusion matrix and roc-auc curve.
+**Insert confusion matrix and roc-auc curve.**
 
 Even given my reservations about quirks in data collection, it’s hard to look at 13 false positives and 98 false negatives in a validation set over of over 18000 tweets as anything other than a great success. Additionally, when looking into the specifics of the false negatives and the false positives we can see how the model is processing. For instance, let’s look at this false positive from the 2016 election, which the model is pretty sure about: 
 
