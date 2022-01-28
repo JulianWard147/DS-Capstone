@@ -36,7 +36,9 @@ The arguments against this model is that it does take more computational power t
 ## Results and Analysis
 The model performs very well.
 
-**Insert confusion matrix and roc-auc curve.**
+![rockingroc](https://user-images.githubusercontent.com/85522002/151512466-b837a223-bfc7-4e82-bd95-6bc34eb366f8.png)
+
+![finalconmat](https://user-images.githubusercontent.com/85522002/151512484-c3a81790-7735-47ca-834c-685b11a0d583.png)
 
 Even given my reservations about quirks in data collection, it’s hard to look at 13 false positives and 98 false negatives in a validation set over of over 18000 tweets as anything other than a great success. Additionally, when looking into the specifics of the false negatives and the false positives we can see how the model is processing. For instance, let’s look at this false positive from the 2016 election, which the model is pretty sure about: 
 
@@ -60,7 +62,7 @@ That said, there are some barriers to expanding this product. One would be the p
 Additionally, there are business and political ramifications to moderation that a data model won’t be able to answer. What is the cost of banning a sitting president? The model can’t help there. 
 
 
-**Link to presentation**
+[Link to presentation slides](https://docs.google.com/presentation/d/1gbfk-goROd38QUFdQcuP4ZaFj_XERC7XksbH9YDgHek/edit?usp=sharing)
 
 ## Repository Structure and Navigation
 
