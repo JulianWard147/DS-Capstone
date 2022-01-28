@@ -62,15 +62,19 @@ Additionally, there are business and political ramifications to moderation that 
 
 **Link to presentation**
 
-## Repository Structure
-```
-├── [data]
-├── [images]
-├── .gitignore
-├── README.md
-└── notebook.ipynb
-```
+## Repository Structure and Navigation
 
+| File                                | Description                                                                              |
+| ----------------------------------- | ---------------------------------------------------------------------------------------- |
+| Data                                | A file to hold data files. In this repo it's fairly empty, due to the size of the files. |
+| supplemental notebooks              | A file to hold exploratory notebooks and the data scrapping notebooks.                   |
+| iterative_model_building.ipynb      | My first model building notebook. Look here for insights into model selection.           |
+| additional_iterative_modeling.ipynb | An additional model selection notebook. I select my final model from this notebooks.     |
+| final_main_notebook.ipynb           | My final notebook, with metrics and analysis and the final model.                        |
+| hydrated_tweets                     | The target data created from pulling_from_twitter_2020.ipynb                             |
+| tweets_2016                         | Control data created from pulling_from_twitter_Election2016.ipynb                        |
+
+ 
 
 ## Citations
 
