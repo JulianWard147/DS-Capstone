@@ -4,7 +4,7 @@
 
 This project began, more or less, on the one year anniversary of the January 6th riots/insurrection. An often discussed factor in this event is the role played by social media in radicalizing those who attacked the Capitol building. In the wake of those events, Twitter moved rapidly to suspend many accounts associated with election misinformation.
 
-This project is looking to explore how NLP tools can assist moderation of online spaces b y helping to identify potentially dangerous tweets. There are some questions here about how Twitter might use this information, but this model aims only to identify tweets.
+This project is looking to explore how NLP tools can assist moderation of online spaces by helping to identify potentially dangerous tweets. There are some questions here about how Twitter might use this information, but this model aims only to identify tweets.
 
 ## The Data
 
